@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: white;
+  background-color: #050438;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-weight: 800;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.object{
+  height: 20px;
+  width: 100px;
+  background-color: aqua;
+  z-index: 0;
+}
+
+
+.object2{
+  margin-top: 100px;
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  opacity: 0;
+  z-index: 0;
+}
+
+.object3{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255, 0, 242);
+  z-index: 555;
+}
