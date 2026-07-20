@@ -16,6 +16,11 @@ h1{
   margin-bottom: 100px;
 }
 
+.main{
+  text-align: center;
+  
+}
+
 .object{
   height: 20px;
   width: 100px;
@@ -29,7 +34,7 @@ h1{
   height: 100px;
   width: 100px;
   background-color: blueviolet;
-  opacity: 0;
+  /* opacity: 0; */
   z-index: 0;
 }
 
@@ -48,4 +53,50 @@ h1{
   border-radius: 100%;
   background-color: rgb(17, 255, 21);
   
+}
+
+.object5{
+  margin-left: 90%;
+  height: 20px;
+  width: 100px;
+  background-color: rgb(217, 251, 0);
+  z-index: 0;
+}
+
+
+.object6{
+  margin-top: 100px;
+  margin-left: 300px;
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  /* opacity: 0; */
+  z-index: 0;
+}
+
+.object7{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(71, 186, 144);
+  z-index: 555;
+}
+
+.object7{
+  height: 100px;
+  width: 100px;
+  margin-top: 200px;
+  margin-left: 50px;
+  border-radius: 100%;
+  background-color: rgb(165, 13, 59);
+  
+}
+
+.para{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 33%;
+  font-size: larger;
+  text-decoration: none ;
+  opacity: 0;
 }
