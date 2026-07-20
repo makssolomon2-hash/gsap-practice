@@ -18,7 +18,7 @@ gsap.to('.object',{
 gsap.to('.object2',{
   x: 300,
   radius:360,
-  duration: 2,
+  duration: 4,
   yoyo: true,
   repeat: 5,
   rotation: 360,
@@ -34,6 +34,14 @@ gsap.to('.object3',{
   /* scaleY: 3, */
   repeat: 5,
    backgroundColor: "#3097e0", 
+})
+
+gsap.to('.object4', {
+  scaleX:2,
+  scaleY:2,
+  duration: 3,
+  yoyo: true,
+  repeat: 5,
 })
 
 //gsap.fromTo
